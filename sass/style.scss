@@ -34,7 +34,7 @@ header {
     nav {
         padding: 50px;
         .row {
-            text-align: center;
+            
             .name-landing-page {
                 margin-top: 5px;
                 a {
@@ -46,14 +46,16 @@ header {
             }
             .list-nav {
                 ul {
+                    text-align: center;
                     list-style-type: none;
                     display: flex;
                     flex-wrap: nowrap;
                     flex-direction: row;
                     margin-top: 15px;
-                    margin-left: 70px;
+                    
                     li {
                         flex: 20%;
+                        padding-left: 30px;
                         a {
                             color: #fff;
                             text-decoration: none;
@@ -130,7 +132,7 @@ header {
                 object-fit: cover;
             }
         }
-        
+
         .box-body {
             background-color: #fff;
             padding: 15px;
@@ -147,6 +149,39 @@ header {
             p {
                 color: #747370;
                 font-style: italic;
+            }
+        }
+    }
+}
+
+/* Footer */
+
+footer {
+    padding: 25px;
+    h6 {
+        font-size: 13px;
+        color: #747370;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding-top: 5px;
+        display: inline-flex;
+        a {
+            text-decoration: none;
+            font-size: 0;
+            padding: 0 5px;
+            text-align: center;
+
+            i {
+                font-size: 20px;
+                color: #fff;
+                background-color: #242226;
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                padding-top: 10px;
+                padding-left: 3px;
             }
         }
     }
