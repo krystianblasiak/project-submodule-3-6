@@ -48,13 +48,10 @@ header {
                 ul {
                     text-align: center;
                     list-style-type: none;
-                    display: flex;
-                    flex-wrap: nowrap;
-                    flex-direction: row;
+                    display: inline-flex;
                     margin-top: 15px;
                     
                     li {
-                        flex: 20%;
                         padding-left: 30px;
                         a {
                             color: #fff;
