@@ -215,7 +215,6 @@ footer {
 
                 h2 {
                     font-size: 35px;
-                    font-weight: 100;
                 }
 
                 h1 {
@@ -234,6 +233,53 @@ footer {
             display: flex;
             flex-direction: column;
             justify-self: center;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        nav {
+            .row {
+                .name-landing-page {
+                    text-align: center;
+                    a {
+                        font-size: 30px;
+                    }
+                }
+                .list-nav {
+                    ul {
+                        text-align: left;
+                        margin-left: -100px;
+                        li {
+                            a {
+                                margin-left: 1px;
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .splash {
+            .splash-inner {
+                top: 60px;
+                left: 0;
+
+                h2 {
+                    font-size: 25px;
+                }
+
+                h1 {
+                    font-size: 50px;
+                }
+
+                a {
+                    font-size: 15px;
+                    padding: 20px 30px;
+                    }
+            }
         }
     }
 }
