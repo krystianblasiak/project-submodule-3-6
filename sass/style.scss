@@ -208,24 +208,60 @@ footer {
             }
         }
 
-    .splash {
-        .splash-inner {
-            top: 100px;
-            left: 5%;
+        .splash {
+            .splash-inner {
+                top: 100px;
+                left: 5%;
 
-            h2 {
-                font-size: 35px;
-                font-weight: 100;
-                font-style: italic;
+                h2 {
+                    font-size: 35px;
+                    font-weight: 100;
+                    font-style: italic;
+                }
+
+                h1 {
+                    font-size: 60px;
+                    padding-bottom: 30px;
+                }
+
+                a {
+                    font-size: 17px;
+                    }
+            }
+        }
+    }
+
+    .portfolio {
+        
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+
+            .box-image {
+                width: 280px;
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
             }
 
-            h1 {
-                font-size: 60px;
-                padding-bottom: 30px;
-            }
+            .box-body {
+                background-color: #fff;
+                padding: 15px;
+                margin-top: -5px;
+                margin-left: -1px;
+                width: 282px;
+                
+                h3 {
+                    font-weight: 700;
+                    margin-bottom: -10px;
+                    color: #313032;
+                }
 
-            a {
-                font-size: 17px;
+                p {
+                    color: #747370;
+                    font-style: italic;
                 }
             }
         }
